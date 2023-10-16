@@ -1,0 +1,19 @@
+{
+    "name": "henrique/app-php",
+    "description": "Catalog video",
+    "authors": [
+        {
+            "name": "Henrique Nascimento",
+            "email": "henriquenascimento300@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "mockery/mockery": "^1.6"
+    }
+}
